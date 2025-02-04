@@ -1,8 +1,13 @@
 # notes from class
 # r defaults to characters - you can recast as numbers
+
 # use unique() to find how many unique values occur in a given column of a table
   # ex: unique(buoy_data_1985$DPD) --> gives 99 (only value in the column is 99)
+
 # use <- NA to convert all values of a column in a table to NA 
+
+# use na.rm = T to do functions to data and omit the NA values (such as taking mean
+# of data without including NA bc if you dont it will give you NA in the end)
 
 ###
 # initial buoy project
